@@ -1,3 +1,4 @@
+
 import About from "./component/about";
 import Contact from "./component/contact";
 import Hero from "./component/Hero";
