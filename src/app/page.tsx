@@ -1,8 +1,8 @@
-
-import About from "./component/about";
-import Contact from "./component/contact";
-import Hero from "./component/Hero";
-import Skill from "./component/skill";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Hero from "./components/hero";
+import Project from "./components/project";
+import Skill from "./components/skill";
 
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
       <Hero />
       <About />
       <Skill />
+      <Project />
       <Contact />
     </div>
   );
