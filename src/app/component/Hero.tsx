@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import porfolioPic from "../../Images/porfolio-pic.webp";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
     return (
@@ -11,8 +12,20 @@ const Hero = () => {
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                         I am a 
                         <br className="hidden lg:inline-block" />
-                        Certified Quran Educator
+                        <Typewriter
+                            options={{
+                                strings: [
+                                    "Certified Quran Tutor",
+                                    "Best Reciter",
+                                    "Qurna Teacher",
+                                 
+                                ],
+                                autoStart: true,
+                                loop: true,
+                            }}
+                        />
                     </h1>
+                    
                     <div className="w-[100px] h-[2px] bg-blue-700"></div>
                     <p className="mb-8 leading-relaxed">
                     I am a passionate Qari dedicated to teaching the Quran with proper Tajweed and melodious recitation. My mission is to inspire others to connect with the Quran deeply and to perfect their recitation skills while nurturing a spiritual bond with the words of Allah.
